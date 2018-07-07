@@ -1,0 +1,63 @@
+<html>
+<head>
+	<title>Latihan Web</title>
+	<link rel="stylesheet" type="text/css"
+	media="all" href="style.css">
+</head>
+<body>
+	<div body background="sakura.jpg">
+	<div id="layout">
+		<div id="header">
+		<img src="re.jpg" class="header">
+		</div>
+		<div id="menu">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="profil.html">Profil</a></li>
+				<li><a href="kontak.html">Contact Us</a></li>
+			</ul>
+		</div>
+		<div id="runningtext">
+		<marquee behavior="scroll" scrollamount="3" onmouseover="this.stop();" onmouseout="this.start();" direction="left">
+		Welcome ^_^
+		</marquee>
+		</div>
+		<div id="sidebar">
+		<div class="widged">
+		<img src ="crr.gif" class="gambariklan">
+		</div>
+		<div class="widged">
+		<h1 class="judulwidged">Alert</h1>
+		<ul>
+			<li> <a href="#" class="btn btn-large" onclick="return alert('Hello');">Show Alert</a> </li>
+			<li> <a class="btn btn-large" href="#" onclick="return ubahText();">Change Teks</a></li>
+			<li> <a class="btn btn-large" href="#" onclick="return tambahArtikel();">Add Articel</a></li>
+		</ul>
+		</div>
+		</div>
+		<div class="isi">
+				
+				<div class="isiposting">
+					<h2 class="title">Redmi Launches Phone For Up to 15 Days Battery Backup</h2>
+					<img src="mi1.png" class="gambardepan">
+					<p>Smartphone maker redmi is a great smartphones manufacturer, it continues to launch better phone at a lower cost for its customers.</p>
+					<a href="artikel1.html">
+					read more>>>
+					</a>
+				</div><!-- endof .post -->
+
+				<div class="isiposting">
+					<h2 class="title">iOS 12 Developer Beta 3 is Here With Some Small Changes</h2>
+					<img src="app.jpg" class="gambardepan">
+					<p>Apple has started pushing the third installment of its iOS 12 developer beta version of the software that brings some small changes, 
+			general bug fixes and optimizations. The OS now feels more refined and it gets closer to its official release date in September.</p>
+					<a href="artikel2.html">
+					read more>>>
+					</a>
+					
+				</div><!-- endof .post -->
+			</div>
+			<div id="footer"> &copy 2018, by M. Fauzi Anwar </div> 
+	</div>
+</body>
+</html>
